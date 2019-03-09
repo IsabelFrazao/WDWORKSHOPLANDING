@@ -1,0 +1,82 @@
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: lobster, sans-serif;
+}
+h1{
+  font-family: Bitter, sans-serif;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: bitter, sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+p {
+font-family: indie flower, sans-serif;
+text-align: center;
+color: green;
+}
+
+img {
+	margin: 30px;
+}
+
+.responsive {
+  
+  height: auto;
+  margin: :auto;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/background.jpeg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: bold;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+#footer p{
+	color:grey;
+	font-family: bitter;
+}
